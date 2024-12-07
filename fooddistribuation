@@ -1,0 +1,237 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Food Distribution Website
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+     <nav class="bg-white shadow-lg">
+      <!-- Navbar -->
+   <div class="max-w-6xl mx-auto px-4">
+    <div class="flex justify-between">
+     <div class="flex space-x-7">
+      <div>
+       <a class="flex items-center py-4 px-2" href="#">
+        <img alt="Company logo with a stylized fork and knife" class="h-8 w-8 mr-2" height="50" src="https://static.vecteezy.com/system/resources/previews/044/825/269/non_2x/food-people-icon-isolated-free-vector.jpg" width="50"/>
+        <span class="font-semibold text-gray-500 text-lg">
+         FoodDistribution
+        </span>
+       </a>
+      </div>
+      <div class="hidden md:flex items-center space-x-1">
+       <a class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold" href="#">
+        Home
+       </a>
+       <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="#">
+        About
+       </a>
+       <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="#">
+        Services
+       </a>
+       <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="#">
+        Contact
+       </a>
+      </div>
+     </div>
+     <div class="hidden md:flex items-center space-x-3">
+      <a class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300" href="">
+       Log In
+      </a>
+      <a class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300" href="">
+       Sign Up
+      </a>
+     </div>
+     <div class="md:hidden flex items-center">
+      <button class="outline-none mobile-menu-button">
+       <i class="fas fa-bars">
+       </i>
+      </button>
+     </div>
+    </div>
+   </div>
+  </nav>
+  <div class="hidden mobile-menu">
+   <ul class="">
+    <li>
+     <a class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold" href="#">
+      Home
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="#about">
+      About
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="#services">
+      Services
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="#contact">
+      Contact
+     </a>
+    </li>
+   </ul>
+  </div>
+  <!-- Hero Section -->
+  <div class="bg-white">
+   <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+    <div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
+     <h1 class="text-3xl md:text-5xl p-2 text-green-500 tracking-loose">
+     FoodDistribution
+     </h1>
+     <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
+      Delivering Fresh Food to Your Poor People
+     </h2>
+     <p class="text-sm md:text-base text-gray-60 mb-3">
+        India is home to the largest number of hungry people in the world and is unable to feed its population and provide access to food to a large number of people
+     </p>
+     <a class="bg-green-500 text-white rounded p-2 hover:bg-green-400" href="#services">
+      Learn More
+     </a>
+    </div>
+    <div class="p-8 mt-12 mb-12">
+     <img alt="A delivery person handing over a food package to a happy customer at their doorstep" class="rounded-lg shadow-lg" height="400" src="https://humanityinfinite.in/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-02-at-15.48.39.jpg" width="600"/>
+    </div>
+   </div>
+  </div>
+  <!-- About Section -->
+  <section class="bg-gray-100 py-8" id="about">
+   <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+    <div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
+     <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
+      About Us
+     </h2>
+     <p class="text-sm md:text-base text-gray-600 mb-4">
+        India, with a population of over 1.3 billion, has seen tremendous growth in the past two decades. Gross Domestic Product has increased 4.5 times and per capita consumption has increased 3 times. Similarly, food grain production has increased almost 2 times. Despite the good economic performance, with over 200 million people who are food insecure,
+     </p>
+     <a class="bg-green-500 text-white rounded p-2 hover:bg-green-400" href="#contact">
+      Contact Us
+     </a>
+    </div>
+    <div class="p-8 mt-12 mb-12">
+     <img alt="A team of delivery personnel standing in front of a delivery van, ready to distribute food" class="rounded-lg shadow-lg" height="400" src="https://storage.googleapis.com/a1aa/image/znvNBHicWwZBPp78kF23NLLEoMdfkie7ZcPbCdtfT3NwDGxnA.jpg" width="600"/>
+    </div>
+   </div>
+  </section>
+  <!-- Services Section -->
+  <section class="bg-white py-8" id="services">
+   <div class="container mx-auto text-center py-8">
+    <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
+     Our Services
+    </h2>
+    <div class="flex flex-wrap justify-center">
+     <div class="w-full md:w-1/3 p-4">
+      <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+       <img alt="Icon representing fresh food delivery service" class="h-16 w-16 mb-4 mx-auto" height="100" src="https://content.jdmagicbox.com/comp/hyderabad/y9/040pxx40.xx40.091215171715.d7y9/catalogue/basera-function-hall-falaknuma-hyderabad-banquet-halls-b8flkvycdl.jpg" width="100"/>
+       <h3 class="text-xl font-semibold mb-2">
+        Leftover Food From Function
+       </h3>
+       <p class="text-gray-600">
+        there is leftover food from the function then it heated and then talked about 
+       </p>
+      </div>
+     </div>
+     <div class="w-full md:w-1/3 p-4">
+      <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+       <img alt="Icon representing meal planning service" class="h-16 w-16 mb-4 mx-auto" height="100" src="https://storage.googleapis.com/a1aa/image/aO57MfTlyuzEByGwQjUGxxJca5NVZLqrqMoI1EIUPGo7gR8JA.jpg" width="100"/>
+       <h3 class="text-xl font-semibold mb-2">
+        CookFood And shared
+       </h3>
+       <p class="text-gray-600">
+        We make a cook a fresh food and circulate the people
+       </p>
+      </div>
+     </div>
+     <div class="w-full md:w-1/3 p-4">
+      <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+       <img alt="Icon representing subscription service" class="h-16 w-16 mb-4 mx-auto" height="100" src="https://storage.googleapis.com/a1aa/image/ASKOFHFjLDpeWCG1IpFHCvlNijk1vQuzsp15QzT34u54gR8JA.jpg" width="100"/>
+       <h3 class="text-xl font-semibold mb-2">
+        NGO Attachement
+       </h3>
+       <p class="text-gray-600">
+        People are Collab to NGO and share a some donotion and Food distribuation
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="bg-gray-100 py-8" id="contact">
+   <div class="container mx-auto text-center py-8">
+    <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
+     Contact Us
+    </h2>
+    <p class="text-gray-600 mb-8">
+     If yuo want to join us and do food distribution then contact us :
+    </p>
+    <form class="w-full max-w-lg mx-auto">
+     <div class="flex flex-wrap -mx-3 mb-6">
+      <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+        First Name
+       </label>
+       <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-first-name" placeholder="ajay" type="text"/>
+      </div>
+      <div class="w-full md:w-1/2 px-3">
+       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+        Last Name
+       </label>
+       <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" placeholder="lodhi" type="text"/>
+      </div>
+     </div>
+     <div class="flex flex-wrap -mx-3 mb-6">
+      <div class="w-full px-3">
+       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email">
+        Email
+       </label>
+       <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" placeholder="ajayelen2004@gmail.com" type="email"/>
+      </div>
+     </div>
+     <div class="flex flex-wrap -mx-3 mb-6">
+      <div class="w-full px-3">
+       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-message">
+        Message
+       </label>
+       <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-message" placeholder="Your message..." rows="4"></textarea>
+      </div>
+     </div>
+     <div class="flex justify-center">
+      <button class="bg-green-500 text-white rounded py-2 px-4 hover:bg-green-400" type="submit">
+       Send Message
+      </button>
+     </div>
+    </form>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-white py-8">
+   <div class="container mx-auto text-center">
+    <p class="text-gray-600">
+     © FoodDistribution. All are some god's plan
+    </p>
+   </div>
+  </footer>
+  <script>
+   const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+  </script>
+ </body>
+</html>
